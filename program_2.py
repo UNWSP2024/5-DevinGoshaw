@@ -24,7 +24,7 @@ def check_answer(num1, num2, solution):
     if answer==solution:
         print('nice job you got the answer correct')
     else:
-        print('you go the answer wrong the right answer is:', answer)
+        print('you got the answer wrong the right answer is:', answer)
 
 def quiz():
     num1=random.randint(0,99999)
