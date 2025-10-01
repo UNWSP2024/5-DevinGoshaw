@@ -11,7 +11,8 @@
 def kilometer_conversion(kilometers):    
     miles = 0.0
     ######################
-    miles=kilometers*0.6214
+    conversion=0.6214
+    miles=kilometers*conversion
     print(kilometers,'kilometers')
     print(miles,'miles')
     ######################    
