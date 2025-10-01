@@ -26,6 +26,6 @@ def kilometer_conversion(kilometers):
 if __name__ == '__main__':
     # Get User Input
     kilometer_conversion(float(input("enter the kilometers:")))
-    print('in main')
     # Call kilometer_conversion, don't forget to pass in the kilometer parameter!
+    print('in main')
     # Display the miles
