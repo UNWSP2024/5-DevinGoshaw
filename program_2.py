@@ -14,7 +14,8 @@
 
 #Name: Devin Goshaw
 #date: 10/1/2025
-#programm: addition math quiz
+#programm: math quiz program
+
 
 import random
 
@@ -32,6 +33,5 @@ def quiz():
     print('+', num2)
     print('-----')
     solution=float(input('answer: '))
-    check_answer(num1, num2, solution)
-        
+    check_answer(num1, num2, solution)    
 quiz()
