@@ -20,13 +20,12 @@ def kilometer_conversion(kilometers):
 
     # Return the variable to the calling function
     return miles
-kilometer_conversion(float(input("enter the kilometers:")))
 #### This piece of the code has been done for you,
 #### you only need to worry about the actual kilometer
 #### conversion logic in the kilometer_conversion function
 if __name__ == '__main__':
     # Get User Input
+    kilometer_conversion(float(input("enter the kilometers:")))
     print('in main')
     # Call kilometer_conversion, don't forget to pass in the kilometer parameter!
-    
     # Display the miles
