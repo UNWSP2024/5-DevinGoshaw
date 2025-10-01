@@ -34,4 +34,9 @@ def quiz():
     print('-----')
     solution=float(input('answer: '))
     check_answer(num1, num2, solution)    
-quiz()
+
+def main():
+    quiz()
+
+if __name__ == '__main__':
+    main()
